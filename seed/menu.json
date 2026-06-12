@@ -1,0 +1,828 @@
+{
+  "_comment": "Seed data exported from the live menu on 2026-06-11 (real items/prices from the owner). Photos are not part of the seed.",
+  "categories": [
+    {
+      "slug": "baalbaki",
+      "name_fa": "پیتزا بعلبکی لبنانی",
+      "name_en": "Lebanese Baalbaki Pizza",
+      "items": [
+        {
+          "name_fa": "پیتزا بعلبکی لبنانی مخصوص",
+          "name_en": "Special Baalbaki",
+          "desc_fa": "خمیر مخصوص، قارچ بلانچ، ذرت، زیتون سیاه، ژامبون گوشت و مرغ، پنیر پیتزای مطهر، رومال زرده تخم‌مرغ، کنجد سفید",
+          "desc_en": "Special dough, blanched mushrooms, corn, black olives, beef & chicken ham, premium pizza cheese, egg-yolk glaze, white sesame",
+          "variants": [
+            {
+              "label_fa": "یک نفره",
+              "label_en": "1 Person",
+              "price": 625000
+            },
+            {
+              "label_fa": "دو نفره",
+              "label_en": "2 Persons",
+              "price": 1250000
+            },
+            {
+              "label_fa": "سه نفره",
+              "label_en": "3 Persons",
+              "price": 1875000
+            },
+            {
+              "label_fa": "چهار نفره",
+              "label_en": "4 Persons",
+              "price": 2500000
+            }
+          ]
+        },
+        {
+          "name_fa": "پیتزا بعلبکی لبنانی پپرونی",
+          "name_en": "Pepperoni Baalbaki",
+          "desc_fa": "خمیر مخصوص، قارچ بلانچ، ذرت، زیتون سیاه، پپرونی، پنیر پیتزای مرغوب، رومال زرده تخم‌مرغ، کنجد سفید",
+          "desc_en": "Special dough, blanched mushrooms, corn, black olives, pepperoni, premium pizza cheese, egg-yolk glaze, white sesame",
+          "variants": [
+            {
+              "label_fa": "یک نفره",
+              "label_en": "1 Person",
+              "price": 625000
+            },
+            {
+              "label_fa": "دو نفره",
+              "label_en": "2 Persons",
+              "price": 1250000
+            },
+            {
+              "label_fa": "سه نفره",
+              "label_en": "3 Persons",
+              "price": 1875000
+            },
+            {
+              "label_fa": "چهار نفره",
+              "label_en": "4 Persons",
+              "price": 2500000
+            }
+          ]
+        },
+        {
+          "name_fa": "پیتزا بعلبکی لبنانی میکس",
+          "name_en": "Mix Baalbaki",
+          "desc_fa": "خمیر مخصوص، گوشت رست بیف، مرغ شاورما، ذرت، زیتون سیاه، قارچ بلانچ، پنیر پیتزای مرغوب، رومال زرده تخم‌مرغ، کنجد سفید",
+          "desc_en": "Special dough, roast beef, shawarma chicken, corn, black olives, blanched mushrooms, premium pizza cheese, egg-yolk glaze, white sesame",
+          "variants": [
+            {
+              "label_fa": "یک نفره",
+              "label_en": "1 Person",
+              "price": 820000
+            },
+            {
+              "label_fa": "دو نفره",
+              "label_en": "2 Persons",
+              "price": 1640000
+            },
+            {
+              "label_fa": "سه نفره",
+              "label_en": "3 Persons",
+              "price": 2450000
+            },
+            {
+              "label_fa": "چهار نفره",
+              "label_en": "4 Persons",
+              "price": 3200000
+            }
+          ]
+        },
+        {
+          "name_fa": "پیتزا بعلبکی لبنانی گوشت",
+          "name_en": "Beef Baalbaki",
+          "desc_fa": "خمیر مخصوص، قارچ بلانچ، ذرت، زیتون سیاه، گوشت رست بیف، پنیر پیتزای مرغوب، رومال زرده تخم‌مرغ، کنجد سفید",
+          "desc_en": "Special dough, blanched mushrooms, corn, black olives, roast beef, premium pizza cheese, egg-yolk glaze, white sesame",
+          "variants": [
+            {
+              "label_fa": "یک نفره",
+              "label_en": "1 Person",
+              "price": 880000
+            },
+            {
+              "label_fa": "دو نفره",
+              "label_en": "2 Persons",
+              "price": 1750000
+            },
+            {
+              "label_fa": "سه نفره",
+              "label_en": "3 Persons",
+              "price": 2600000
+            },
+            {
+              "label_fa": "چهار نفره",
+              "label_en": "4 Persons",
+              "price": 3400000
+            }
+          ]
+        },
+        {
+          "name_fa": "پیتزا بعلبکی لبنانی مرغ",
+          "name_en": "Chicken Baalbaki",
+          "desc_fa": "خمیر مخصوص، قارچ بلانچ، ذرت، زیتون سیاه، سینه مرغ، پنیر پیتزای مرغوب، رومال زرده تخم‌مرغ، کنجد سفید",
+          "desc_en": "Special dough, blanched mushrooms, corn, black olives, chicken breast, premium pizza cheese, egg-yolk glaze, white sesame",
+          "variants": [
+            {
+              "label_fa": "یک نفره",
+              "label_en": "1 Person",
+              "price": 780000
+            },
+            {
+              "label_fa": "دو نفره",
+              "label_en": "2 Persons",
+              "price": 1560000
+            },
+            {
+              "label_fa": "سه نفره",
+              "label_en": "3 Persons",
+              "price": 2340000
+            },
+            {
+              "label_fa": "چهار نفره",
+              "label_en": "4 Persons",
+              "price": 3120000
+            }
+          ]
+        },
+        {
+          "name_fa": "پیتزا بعلبکی لبنانی بوقلمون",
+          "name_en": "Turkey Baalbaki",
+          "desc_fa": "خمیر مخصوص، قارچ بلانچ، ذرت، زیتون سیاه، گوشت رست‌شده بوقلمون، پنیر پیتزای مرغوب، رومال زرده تخم‌مرغ، کنجد سفید",
+          "desc_en": "Special dough, blanched mushrooms, corn, black olives, roasted turkey, premium pizza cheese, egg-yolk glaze, white sesame",
+          "variants": [
+            {
+              "label_fa": "یک نفره",
+              "label_en": "1 Person",
+              "price": 780000
+            },
+            {
+              "label_fa": "دو نفره",
+              "label_en": "2 Persons",
+              "price": 1560000
+            },
+            {
+              "label_fa": "سه نفره",
+              "label_en": "3 Persons",
+              "price": 2340000
+            },
+            {
+              "label_fa": "چهار نفره",
+              "label_en": "4 Persons",
+              "price": 3120000
+            }
+          ]
+        },
+        {
+          "name_fa": "پیتزا بعلبکی لبنانی مخصوص ارگانیک",
+          "name_en": "Organic Special Baalbaki",
+          "desc_fa": "خمیر مخصوص، قارچ بلانچ، ذرت، زیتون سیاه، ژامبون مخصوص خانگی، پنیر پیتزای مطهر، رومال زرده تخم‌مرغ، کنجد سفید",
+          "desc_en": "Special dough, blanched mushrooms, corn, black olives, homemade organic ham, premium pizza cheese, egg-yolk glaze, white sesame",
+          "variants": [
+            {
+              "label_fa": "یک نفره",
+              "label_en": "1 Person",
+              "price": 800000
+            },
+            {
+              "label_fa": "دو نفره",
+              "label_en": "2 Persons",
+              "price": 1600000
+            },
+            {
+              "label_fa": "سه نفره",
+              "label_en": "3 Persons",
+              "price": 2400000
+            },
+            {
+              "label_fa": "چهار نفره",
+              "label_en": "4 Persons",
+              "price": 3200000
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "italian",
+      "name_fa": "پیتزا ایتالیایی",
+      "name_en": "Italian Pizza",
+      "items": [
+        {
+          "name_fa": "رست بیف",
+          "name_en": "Roast Beef",
+          "desc_fa": "",
+          "desc_en": "",
+          "variants": [
+            {
+              "label_fa": "یک نفره",
+              "label_en": "Single",
+              "price": 800000
+            },
+            {
+              "label_fa": "دو نفره",
+              "label_en": "Double",
+              "price": 1600000
+            }
+          ]
+        },
+        {
+          "name_fa": "مرغ و قارچ",
+          "name_en": "Chicken & Mushroom",
+          "desc_fa": "",
+          "desc_en": "",
+          "variants": [
+            {
+              "label_fa": "یک نفره",
+              "label_en": "Single",
+              "price": 699000
+            },
+            {
+              "label_fa": "دو نفره",
+              "label_en": "Double",
+              "price": 1380000
+            }
+          ]
+        },
+        {
+          "name_fa": "پپرونی",
+          "name_en": "Pepperoni",
+          "desc_fa": "",
+          "desc_en": "",
+          "variants": [
+            {
+              "label_fa": "یک نفره",
+              "label_en": "Single",
+              "price": 660000
+            },
+            {
+              "label_fa": "دو نفره",
+              "label_en": "Double",
+              "price": 1180000
+            }
+          ]
+        },
+        {
+          "name_fa": "مخصوص",
+          "name_en": "Special",
+          "desc_fa": "",
+          "desc_en": "",
+          "variants": [
+            {
+              "label_fa": "یک نفره",
+              "label_en": "Single",
+              "price": 580000
+            },
+            {
+              "label_fa": "دو نفره",
+              "label_en": "Double",
+              "price": 1140000
+            }
+          ]
+        },
+        {
+          "name_fa": "ارگانیک",
+          "name_en": "Organic",
+          "desc_fa": "",
+          "desc_en": "",
+          "variants": [
+            {
+              "label_fa": "یک نفره",
+              "label_en": "Single",
+              "price": 698000
+            },
+            {
+              "label_fa": "دو نفره",
+              "label_en": "Double",
+              "price": 1350000
+            }
+          ]
+        },
+        {
+          "name_fa": "تورکی برست",
+          "name_en": "Turkey Breast",
+          "desc_fa": "",
+          "desc_en": "",
+          "variants": [
+            {
+              "label_fa": "یک نفره",
+              "label_en": "Single",
+              "price": 780000
+            },
+            {
+              "label_fa": "دو نفره",
+              "label_en": "Double",
+              "price": 1380000
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "american",
+      "name_fa": "پیتزا آمریکایی",
+      "name_en": "American Pizza",
+      "items": [
+        {
+          "name_fa": "رست بیف",
+          "name_en": "Roast Beef",
+          "desc_fa": "",
+          "desc_en": "",
+          "variants": [
+            {
+              "label_fa": "یک نفره",
+              "label_en": "Single",
+              "price": 770000
+            },
+            {
+              "label_fa": "دو نفره",
+              "label_en": "Double",
+              "price": 1500000
+            }
+          ]
+        },
+        {
+          "name_fa": "مرغ و قارچ",
+          "name_en": "Chicken & Mushroom",
+          "desc_fa": "",
+          "desc_en": "",
+          "variants": [
+            {
+              "label_fa": "یک نفره",
+              "label_en": "Single",
+              "price": 690000
+            },
+            {
+              "label_fa": "دو نفره",
+              "label_en": "Double",
+              "price": 1350000
+            }
+          ]
+        },
+        {
+          "name_fa": "پپرونی",
+          "name_en": "Pepperoni",
+          "desc_fa": "",
+          "desc_en": "",
+          "variants": [
+            {
+              "label_fa": "یک نفره",
+              "label_en": "Single",
+              "price": 570000
+            },
+            {
+              "label_fa": "دو نفره",
+              "label_en": "Double",
+              "price": 1100000
+            }
+          ]
+        },
+        {
+          "name_fa": "مخصوص",
+          "name_en": "Special",
+          "desc_fa": "",
+          "desc_en": "",
+          "variants": [
+            {
+              "label_fa": "یک نفره",
+              "label_en": "Single",
+              "price": 590000
+            },
+            {
+              "label_fa": "دو نفره",
+              "label_en": "Double",
+              "price": 1140000
+            }
+          ]
+        },
+        {
+          "name_fa": "پپرونی و گوشت ویژه",
+          "name_en": "Pepperoni & Special Beef",
+          "desc_fa": "",
+          "desc_en": "",
+          "variants": [
+            {
+              "label_fa": "یک نفره",
+              "label_en": "Single",
+              "price": 850000
+            },
+            {
+              "label_fa": "دو نفره",
+              "label_en": "Double",
+              "price": 1490000
+            }
+          ]
+        },
+        {
+          "name_fa": "مخصوص ارگانیک",
+          "name_en": "Organic Special",
+          "desc_fa": "",
+          "desc_en": "",
+          "variants": [
+            {
+              "label_fa": "یک نفره",
+              "label_en": "Single",
+              "price": 680000
+            },
+            {
+              "label_fa": "دو نفره",
+              "label_en": "Double",
+              "price": 1350000
+            }
+          ]
+        },
+        {
+          "name_fa": "تورکی برست",
+          "name_en": "Turkey Breast",
+          "desc_fa": "",
+          "desc_en": "",
+          "variants": [
+            {
+              "label_fa": "یک نفره",
+              "label_en": "Single",
+              "price": 680000
+            },
+            {
+              "label_fa": "دو نفره",
+              "label_en": "Double",
+              "price": 980000
+            }
+          ]
+        },
+        {
+          "name_fa": "تورکی رونی",
+          "name_en": "Turkey Roni",
+          "desc_fa": "",
+          "desc_en": "",
+          "variants": [
+            {
+              "label_fa": "یک نفره",
+              "label_en": "Single",
+              "price": 750000
+            },
+            {
+              "label_fa": "دو نفره",
+              "label_en": "Double",
+              "price": 1400000
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "snacks",
+      "name_fa": "اسنک",
+      "name_en": "Snacks",
+      "items": [
+        {
+          "name_fa": "گوشت",
+          "name_en": "Beef",
+          "desc_fa": "",
+          "desc_en": "",
+          "variants": [
+            {
+              "label_fa": "",
+              "label_en": "",
+              "price": 400000
+            }
+          ]
+        },
+        {
+          "name_fa": "مرغ",
+          "name_en": "Chicken",
+          "desc_fa": "",
+          "desc_en": "",
+          "variants": [
+            {
+              "label_fa": "",
+              "label_en": "",
+              "price": 310000
+            }
+          ]
+        },
+        {
+          "name_fa": "پپرونی",
+          "name_en": "Pepperoni",
+          "desc_fa": "",
+          "desc_en": "",
+          "variants": [
+            {
+              "label_fa": "",
+              "label_en": "",
+              "price": 260000
+            }
+          ]
+        },
+        {
+          "name_fa": "مخصوص",
+          "name_en": "Special",
+          "desc_fa": "",
+          "desc_en": "",
+          "variants": [
+            {
+              "label_fa": "",
+              "label_en": "",
+              "price": 280000
+            }
+          ]
+        },
+        {
+          "name_fa": "مخصوص ارگانیک",
+          "name_en": "Organic Special",
+          "desc_fa": "",
+          "desc_en": "",
+          "variants": [
+            {
+              "label_fa": "",
+              "label_en": "",
+              "price": 310000
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "burgers",
+      "name_fa": "برگر",
+      "name_en": "Burgers",
+      "items": [
+        {
+          "name_fa": "برگر ذغالی",
+          "name_en": "Charcoal Burger",
+          "desc_fa": "",
+          "desc_en": "",
+          "variants": [
+            {
+              "label_fa": "",
+              "label_en": "",
+              "price": 395000
+            }
+          ]
+        },
+        {
+          "name_fa": "چیزبرگر",
+          "name_en": "Cheeseburger",
+          "desc_fa": "",
+          "desc_en": "",
+          "variants": [
+            {
+              "label_fa": "",
+              "label_en": "",
+              "price": 465000
+            }
+          ]
+        },
+        {
+          "name_fa": "ماشروم برگر",
+          "name_en": "Mushroom Burger",
+          "desc_fa": "",
+          "desc_en": "",
+          "variants": [
+            {
+              "label_fa": "",
+              "label_en": "",
+              "price": 515000
+            }
+          ]
+        },
+        {
+          "name_fa": "بانی برگر",
+          "name_en": "Bani Burger",
+          "desc_fa": "",
+          "desc_en": "",
+          "variants": [
+            {
+              "label_fa": "",
+              "label_en": "",
+              "price": 490000
+            }
+          ]
+        },
+        {
+          "name_fa": "میکس برگر",
+          "name_en": "Mix Burger",
+          "desc_fa": "",
+          "desc_en": "",
+          "variants": [
+            {
+              "label_fa": "",
+              "label_en": "",
+              "price": 570000
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "sandwiches",
+      "name_fa": "ساندویچ",
+      "name_en": "Sandwiches",
+      "items": [
+        {
+          "name_fa": "مرغ",
+          "name_en": "Chicken",
+          "desc_fa": "",
+          "desc_en": "",
+          "variants": [
+            {
+              "label_fa": "",
+              "label_en": "",
+              "price": 420000
+            }
+          ]
+        },
+        {
+          "name_fa": "رست بیف",
+          "name_en": "Roast Beef",
+          "desc_fa": "",
+          "desc_en": "",
+          "variants": [
+            {
+              "label_fa": "",
+              "label_en": "",
+              "price": 495000
+            }
+          ]
+        },
+        {
+          "name_fa": "ژامبون میکس سرد",
+          "name_en": "Cold Mix Ham",
+          "desc_fa": "",
+          "desc_en": "",
+          "variants": [
+            {
+              "label_fa": "",
+              "label_en": "",
+              "price": 460000
+            }
+          ]
+        },
+        {
+          "name_fa": "هات داگ",
+          "name_en": "Hot Dog",
+          "desc_fa": "",
+          "desc_en": "",
+          "variants": [
+            {
+              "label_fa": "",
+              "label_en": "",
+              "price": 290000
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "grilled-sandwiches",
+      "name_fa": "ساندویچ گریل",
+      "name_en": "Grilled Sandwiches",
+      "items": [
+        {
+          "name_fa": "رست بیف",
+          "name_en": "Roast Beef",
+          "desc_fa": "",
+          "desc_en": "",
+          "variants": [
+            {
+              "label_fa": "",
+              "label_en": "",
+              "price": 540000
+            }
+          ]
+        },
+        {
+          "name_fa": "مرغ",
+          "name_en": "Chicken",
+          "desc_fa": "",
+          "desc_en": "",
+          "variants": [
+            {
+              "label_fa": "",
+              "label_en": "",
+              "price": 425000
+            }
+          ]
+        },
+        {
+          "name_fa": "پپرونی",
+          "name_en": "Pepperoni",
+          "desc_fa": "",
+          "desc_en": "",
+          "variants": [
+            {
+              "label_fa": "",
+              "label_en": "",
+              "price": 390000
+            }
+          ]
+        },
+        {
+          "name_fa": "مخصوص",
+          "name_en": "Special",
+          "desc_fa": "",
+          "desc_en": "",
+          "variants": [
+            {
+              "label_fa": "",
+              "label_en": "",
+              "price": 440000
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "appetizers",
+      "name_fa": "پیش‌غذا",
+      "name_en": "Appetizers",
+      "items": [
+        {
+          "name_fa": "سیب‌زمینی سرخ‌شده",
+          "name_en": "French Fries",
+          "desc_fa": "",
+          "desc_en": "",
+          "variants": [
+            {
+              "label_fa": "",
+              "label_en": "",
+              "price": 230000
+            }
+          ]
+        },
+        {
+          "name_fa": "چیز فرایز",
+          "name_en": "Cheese Fries",
+          "desc_fa": "",
+          "desc_en": "",
+          "variants": [
+            {
+              "label_fa": "",
+              "label_en": "",
+              "price": 280000
+            }
+          ]
+        },
+        {
+          "name_fa": "هالوپینو فرایز",
+          "name_en": "Jalapeño Fries",
+          "desc_fa": "",
+          "desc_en": "",
+          "variants": [
+            {
+              "label_fa": "",
+              "label_en": "",
+              "price": 340000
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "drinks",
+      "name_fa": "نوشیدنی",
+      "name_en": "Drinks",
+      "items": [
+        {
+          "name_fa": "نوشابه قوطی",
+          "name_en": "Soft Drink (Can)",
+          "desc_fa": "کوکاکولا، فانتا، اسپرایت",
+          "desc_en": "Coca-Cola, Fanta, Sprite",
+          "variants": [
+            {
+              "label_fa": "",
+              "label_en": "",
+              "price": 28000
+            }
+          ]
+        },
+        {
+          "name_fa": "نوشابه خانواده",
+          "name_en": "Soft Drink (Family)",
+          "desc_fa": "بطری ۱.۵ لیتری",
+          "desc_en": "1.5L bottle",
+          "variants": [
+            {
+              "label_fa": "",
+              "label_en": "",
+              "price": 42000
+            }
+          ]
+        },
+        {
+          "name_fa": "آب معدنی",
+          "name_en": "Mineral Water",
+          "desc_fa": "بطری کوچک",
+          "desc_en": "Small bottle",
+          "variants": [
+            {
+              "label_fa": "",
+              "label_en": "",
+              "price": 12000
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

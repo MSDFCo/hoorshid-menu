@@ -1,0 +1,32 @@
+# nginx reverse proxy for the Hoorshid menu.
+# Copy to /etc/nginx/sites-available/hoorshid and adjust server_name.
+
+server {
+    listen 80;
+    server_name menu.example.ir;
+
+    client_max_body_size 3m;  # admin photo uploads (2MB limit + overhead)
+
+    location / {
+        proxy_pass http://127.0.0.1:4000;
+        proxy_http_version 1.1;
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header X-Forwarded-Proto $scheme;
+    }
+
+    # Long cache for uploaded photos (immutable filenames)
+    location /uploads/ {
+        proxy_pass http://127.0.0.1:4000;
+        proxy_set_header Host $host;
+        expires 30d;
+        add_header Cache-Control "public, immutable";
+    }
+
+    gzip on;
+    gzip_types text/css application/javascript application/json image/svg+xml;
+}
+
+# For HTTPS, obtain a certificate (e.g. certbot --nginx) — it will rewrite this
+# file automatically. With HTTPS enabled, remove COOKIE_SECURE=false from .env.

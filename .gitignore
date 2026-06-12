@@ -1,0 +1,10 @@
+node_modules/
+client/dist/
+uploads/*
+!uploads/.gitkeep
+data/*.sqlite
+data/*.sqlite-journal
+data/*.sqlite-wal
+data/*.sqlite-shm
+.env
+*.log

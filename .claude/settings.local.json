@@ -1,0 +1,28 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:api.anthropic.com)",
+      "Bash(curl -sS -i -L \"https://api.anthropic.com/v1/design/h/HURaG18yKjWOGJGkNuydNw\")",
+      "PowerShell(node --version)",
+      "PowerShell(npm --version)",
+      "Bash(npm --version)",
+      "PowerShell(Test-Path \"C:\\\\Program Files\\\\nodejs\\\\node.exe\"; Test-Path \"$env:LOCALAPPDATA\\\\nvm\"; Test-Path \"$env:USERPROFILE\\\\scoop\\\\apps\\\\nodejs\"; Test-Path \"$env:LOCALAPPDATA\\\\fnm_multishells\"; Get-Command winget -ErrorAction SilentlyContinue | ForEach-Object { $_.Source })",
+      "PowerShell($env:Path = \"C:\\\\Program Files\\\\nodejs;$env:Path\"; node --version; npm --version)",
+      "Bash(curl -sSL -o \"/d/Hoorshid-project/client/public/fonts/Vazirmatn-var.woff2\" \"https://raw.githubusercontent.com/rastikerdar/vazirmatn/master/fonts/webfonts/Vazirmatn%5Bwght%5D.woff2\")",
+      "mcp__Claude_Preview__preview_start",
+      "PowerShell(Get-Process node -ErrorAction SilentlyContinue | Stop-Process -Force -Confirm:$false; Start-Sleep 1; try { \\(Invoke-WebRequest -Uri http://localhost:5173 -UseBasicParsing -TimeoutSec 2\\).StatusCode } catch { \"port free\" })",
+      "Bash(curl -s -o /dev/null -w \"server: %{http_code}\\\\n\" http://localhost:4000/api/menu)",
+      "Bash(netstat -ano)",
+      "Bash(curl -sL \"https://api.anthropic.com/v1/design/h/2LR90RWkjAVs9NjLIhrxgQ\" -o design-import/bundle.json)",
+      "Bash(xxd bundle.json)",
+      "Bash(mv bundle.bin bundle.tar.gz)",
+      "Bash(tar -tzf bundle.tar.gz)",
+      "Bash(tar -xzf bundle.tar.gz)",
+      "PowerShell($env:Path = \"C:\\\\Program Files\\\\nodejs;$env:Path\"; node --version; npm --version; ffmpeg -version 2>$null | Select-Object -First 1; Get-Command ffmpeg -ErrorAction SilentlyContinue | Select-Object -ExpandProperty Source; \"---\"; Test-Path \"C:\\\\Program Files \\(x86\\)\\\\Microsoft\\\\Edge\\\\Application\\\\msedge.exe\"; Test-Path \"C:\\\\Program Files\\\\Google\\\\Chrome\\\\Application\\\\chrome.exe\"; \"---\"; Get-PSDrive D | Select-Object Used,Free)",
+      "Bash(cd /d/Hoorshid-project/design-import/fastfood-test/project && ls -la assets/ && ls /d/Hoorshid-project)",
+      "Bash(rm -f /d/Hoorshid-project/signage/check-*.png /d/Hoorshid-project/signage/smoke-test.mp4)",
+      "PowerShell(Set-Location D:\\\\Hoorshid-project\\\\signage; $ff = \"node_modules\\\\ffmpeg-static\\\\ffmpeg.exe\"; & $ff -i \"Hoorshid Signage 4K.mp4\" -hide_banner 2>&1 | Select-String \"Stream|Duration\"; & $ff -y -v error -ss 1.8 -i \"Hoorshid Signage 4K.mp4\" -frames:v 1 -vf scale=1280:720 verify-open.png; & $ff -y -v error -ss 8.5 -i \"Hoorshid Signage 4K.mp4\" -frames:v 1 -vf scale=1280:720 verify-mid.png; & $ff -y -v error -ss 22.5 -i \"Hoorshid Signage 4K.mp4\" -frames:v 1 -vf scale=1280:720 verify-end.png)",
+      "PowerShell($r = Invoke-WebRequest \"https://volume-lawsuit-ton-pros.trycloudflare.com/\" -UseBasicParsing -TimeoutSec 30; $r.StatusCode; if \\($r.Content -match 'فست فود'\\) { \"new title live on public URL\" })"
+    ]
+  }
+}
