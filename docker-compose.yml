@@ -1,0 +1,21 @@
+# Run with: docker compose up -d --build
+# First time only (fresh data folder):
+#   docker compose run --rm hoorshid node server/seed.js
+#   docker compose run --rm hoorshid node server/scripts/set-password.js manager <password>
+services:
+  hoorshid:
+    build: .
+    ports:
+      - "4000:4000"
+    env_file:
+      # provides SESSION_SECRET — create with one line if missing:
+      #   echo "SESSION_SECRET=$(openssl rand -hex 32)" > .env
+      - path: .env
+        required: false
+    environment:
+      # required when serving plain HTTP; remove once behind an HTTPS reverse proxy
+      COOKIE_SECURE: "false"
+    volumes:
+      - ./data:/app/data       # SQLite database (menu, users, activity log)
+      - ./uploads:/app/uploads # item photos
+    restart: unless-stopped

@@ -63,6 +63,25 @@ Users and passwords live in the database (bcrypt hashes), managed from the admin
 | `GET/POST /api/users`, `PATCH /api/users/:id/password`, `DELETE /api/users/:id` | manager | User management |
 | `GET /api/logs` | manager | Activity log (filter with `?user=`, `?limit=`) |
 
+## Running with Docker
+
+```bash
+# 1. Make sure SESSION_SECRET exists (sessions survive restarts):
+echo "SESSION_SECRET=$(openssl rand -hex 32)" > .env
+
+# 2. Build and start (serves everything on port 4000):
+docker compose up -d --build
+
+# 3. First time only — seed the menu and create the manager user:
+docker compose run --rm hoorshid node server/seed.js
+docker compose run --rm hoorshid node server/scripts/set-password.js manager a-strong-password
+```
+
+The SQLite database and photos are bind-mounted from `./data` and `./uploads`, so they
+persist across rebuilds — and if you copy those two folders from another machine, your
+existing menu comes with them (skip the seed step). `COOKIE_SECURE=false` is set in
+`docker-compose.yml` for plain-HTTP serving; remove it once you put HTTPS in front.
+
 ## Deploying on a Linux VPS
 
 ```bash

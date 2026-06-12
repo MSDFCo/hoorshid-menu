@@ -1,0 +1,14 @@
+node_modules
+client/dist
+client/node_modules
+server/node_modules
+data
+uploads
+.env
+.git
+.claude
+design-import
+*.log
+run-hoorshid.cmd
+dev.cmd
+README.md
